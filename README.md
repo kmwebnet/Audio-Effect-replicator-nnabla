@@ -10,6 +10,10 @@ config.yml -- define parameters and the list of sound file.
 predict.py -- predict by using trained model and out .nnp file.
 fx_replicator.py -- helper program for train.py and predict.py
 
+# Environment
+you need to setup [nnabla-tensorboard](https://github.com/naibo-code/nnabla_tensorboard).  
+sudo pip3 install -r requirements.txt
+
 # Usage  
 python3 train.py
 
